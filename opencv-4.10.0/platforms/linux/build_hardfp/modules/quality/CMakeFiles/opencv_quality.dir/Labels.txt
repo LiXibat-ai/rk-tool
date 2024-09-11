@@ -1,0 +1,59 @@
+# Target labels
+ Extra
+ opencv_quality
+ Module
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/quality_utils.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualitybase.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualitybrisque.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualitygmsd.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualitymse.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualitypsnr.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/include/opencv2/quality/qualityssim.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/src/qualitybrisque.cpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/src/qualitygmsd.cpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/src/qualitymse.cpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/src/qualityssim.cpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/quality/src/precomp.hpp
+ Extra
+ opencv_quality
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp

@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/plot/include/opencv2/plot.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/plot/src/plot.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/plot/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h"
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_plot",
+			"Module"
+		],
+		"name" : "opencv_plot"
+	}
+}

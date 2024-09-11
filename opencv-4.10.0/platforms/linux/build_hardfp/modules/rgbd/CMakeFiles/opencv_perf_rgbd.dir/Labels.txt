@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_rgbd
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rgbd/perf/perf_main.cpp
+ Extra
+ opencv_rgbd
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rgbd/perf/perf_tsdf.cpp
+ Extra
+ opencv_rgbd
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rgbd/perf/perf_precomp.hpp
+ Extra
+ opencv_rgbd
+ PerfTest

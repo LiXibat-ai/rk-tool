@@ -1,0 +1,84 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco/aruco_calib.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco/charuco.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/aruco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/aruco_calib.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/charuco.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_aruco",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h"
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_aruco",
+			"Module"
+		],
+		"name" : "opencv_aruco"
+	}
+}

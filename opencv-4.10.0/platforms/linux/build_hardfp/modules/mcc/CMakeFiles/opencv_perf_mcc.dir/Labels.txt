@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_mcc
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/mcc/perf/perf_main.cpp
+ Extra
+ opencv_mcc
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/mcc/perf/perf_mcc.cpp
+ Extra
+ opencv_mcc
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/mcc/perf/perf_precomp.hpp
+ Extra
+ opencv_mcc
+ PerfTest

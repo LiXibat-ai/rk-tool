@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/superres/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_superres",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/superres/test/test_superres.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_superres",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/superres/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_superres",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_superres",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_superres"
+	}
+}

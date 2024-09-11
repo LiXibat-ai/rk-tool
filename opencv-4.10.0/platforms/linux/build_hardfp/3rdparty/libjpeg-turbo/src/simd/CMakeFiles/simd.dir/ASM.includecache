@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lixibat/rk-tool/opencv-4.10.0/3rdparty/libjpeg-turbo/src/simd/arm/aarch64/jsimd_neon.S
+

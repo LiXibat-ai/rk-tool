@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/include/opencv2/intensity_transform.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/src/bimef.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/src/intensity_transform.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h"
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_intensity_transform",
+			"Module"
+		],
+		"name" : "opencv_intensity_transform"
+	}
+}

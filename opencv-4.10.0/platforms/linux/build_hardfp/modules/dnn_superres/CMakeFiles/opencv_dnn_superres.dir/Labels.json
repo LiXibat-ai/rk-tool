@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/include/opencv2/dnn_superres.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/src/dnn_superres.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h"
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_superres",
+			"Module"
+		],
+		"name" : "opencv_dnn_superres"
+	}
+}

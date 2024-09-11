@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../lib/libittnotify.a CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../lib/libittnotify.a

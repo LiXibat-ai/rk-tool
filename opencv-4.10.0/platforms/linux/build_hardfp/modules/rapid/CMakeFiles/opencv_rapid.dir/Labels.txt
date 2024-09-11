@@ -1,0 +1,23 @@
+# Target labels
+ Extra
+ opencv_rapid
+ Module
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/include/opencv2/rapid.hpp
+ Extra
+ opencv_rapid
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/src/histogram.cpp
+ Extra
+ opencv_rapid
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/src/rapid.cpp
+ Extra
+ opencv_rapid
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/src/precomp.hpp
+ Extra
+ opencv_rapid
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp

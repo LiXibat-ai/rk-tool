@@ -1,0 +1,35 @@
+# Target labels
+ Extra
+ opencv_aruco
+ Module
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco/aruco_calib.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/include/opencv2/aruco/charuco.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/aruco.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/aruco_calib.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/charuco.cpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/aruco/src/precomp.hpp
+ Extra
+ opencv_aruco
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp

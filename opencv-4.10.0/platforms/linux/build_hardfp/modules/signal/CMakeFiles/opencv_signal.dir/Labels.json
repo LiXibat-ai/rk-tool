@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/include/opencv2/signal.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/include/opencv2/signal/signal_resample.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/src/signal_resample.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h"
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_signal",
+			"Module"
+		],
+		"name" : "opencv_signal"
+	}
+}

@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_reg
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/reg/perf/perf_main.cpp
+ Extra
+ opencv_reg
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/reg/perf/perf_reg.cpp
+ Extra
+ opencv_reg
+ PerfTest
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/reg/perf/perf_precomp.hpp
+ Extra
+ opencv_reg
+ PerfTest

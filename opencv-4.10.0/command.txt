@@ -1,0 +1,5 @@
+cmake \
+-DCMAKE_INSTALL_PREFIX=../install \
+-DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib-4.10.0/modules \
+-DCMAKE_TOOLCHAIN_FILE=/home/lixibat/rk-tool/opencv-4.10.0/tool_chain.cmake \
+..

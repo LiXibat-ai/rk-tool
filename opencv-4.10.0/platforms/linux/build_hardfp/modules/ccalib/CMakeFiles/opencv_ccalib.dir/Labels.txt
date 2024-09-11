@@ -1,0 +1,43 @@
+# Target labels
+ Extra
+ opencv_ccalib
+ Module
+# Source files and their labels
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/include/opencv2/ccalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/include/opencv2/ccalib/multicalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/include/opencv2/ccalib/omnidir.hpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/include/opencv2/ccalib/randpattern.hpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/src/ccalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/src/multicalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/src/omnidir.cpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/src/randpattern.cpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/ccalib/src/precomp.hpp
+ Extra
+ opencv_ccalib
+ Module
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/cvconfig.h
+/home/lixibat/rk-tool/opencv-4.10.0/platforms/linux/build_hardfp/opencv2/opencv_modules.hpp

@@ -1,0 +1,12 @@
+#修改tool_chain.cmake文件，添加以下内容（注意修改相关路径）：
+set( CMAKE_SYSTEM_NAME Linux )
+set( CMAKE_SYSTEM_PROCESSOR aarch64 )
+set( CMAKE_C_COMPILER /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc)
+set( CMAKE_CXX_COMPILER /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++)
+#set( OPENCV_ENABLE_PKG_CONFIG ON)
+#set( CMAKE_C_FLAGS "-Wl,-rpath-link=/opt/arm/fffmpeginstall/lib")
+# set( CMAKE_FIND_ROOT_PATH "/opt/arm/fffmpeginstall/lib" )
+# set( CMAKE_CXX_FLAGS "-Wl,-rpath=/opt/arm/fffmpeginstall/lib")
+set( CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER )
+set( CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY )
+set( CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY )

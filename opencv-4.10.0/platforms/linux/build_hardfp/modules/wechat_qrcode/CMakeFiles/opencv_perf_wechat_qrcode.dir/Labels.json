@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/wechat_qrcode/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/wechat_qrcode/perf/perf_wechat_qrcode_pipeline.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-tool/opencv-4.10.0/opencv_contrib-4.10.0/modules/wechat_qrcode/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_wechat_qrcode",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_wechat_qrcode",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_wechat_qrcode"
+	}
+}
