@@ -1,0 +1,51 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bgsegm/test/test_backgroundsubtractor_gbh.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bgsegm",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bgsegm/test/test_backgroundsubtractor_lsbp.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bgsegm",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bgsegm/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bgsegm",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bgsegm/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bgsegm",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_bgsegm",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_bgsegm"
+	}
+}

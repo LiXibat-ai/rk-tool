@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_dnn_superres.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_superres",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_superres",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_dnn_superres"
+	}
+}

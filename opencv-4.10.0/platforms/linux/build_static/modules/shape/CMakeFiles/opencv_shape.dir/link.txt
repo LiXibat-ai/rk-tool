@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../../lib/libopencv_shape.a CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../../lib/libopencv_shape.a

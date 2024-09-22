@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../../lib/libopencv_bgsegm.a CMakeFiles/opencv_bgsegm.dir/src/bgfg_gaussmix.cpp.o CMakeFiles/opencv_bgsegm.dir/src/bgfg_gmg.cpp.o CMakeFiles/opencv_bgsegm.dir/src/bgfg_gsoc.cpp.o CMakeFiles/opencv_bgsegm.dir/src/bgfg_subcnt.cpp.o CMakeFiles/opencv_bgsegm.dir/src/synthetic_seq.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../../lib/libopencv_bgsegm.a

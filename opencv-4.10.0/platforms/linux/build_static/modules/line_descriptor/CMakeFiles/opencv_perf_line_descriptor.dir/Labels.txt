@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_line_descriptor
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/line_descriptor/perf/perf_descriptors.cpp
+ Extra
+ opencv_line_descriptor
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/line_descriptor/perf/perf_detection.cpp
+ Extra
+ opencv_line_descriptor
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/line_descriptor/perf/perf_main.cpp
+ Extra
+ opencv_line_descriptor
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/line_descriptor/perf/perf_matching.cpp
+ Extra
+ opencv_line_descriptor
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/line_descriptor/perf/perf_precomp.hpp
+ Extra
+ opencv_line_descriptor
+ PerfTest

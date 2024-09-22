@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_signal
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/perf/perf_main.cpp
+ Extra
+ opencv_signal
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/perf/perf_resample.cpp
+ Extra
+ opencv_signal
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/signal/perf/perf_precomp.hpp
+ Extra
+ opencv_signal
+ PerfTest

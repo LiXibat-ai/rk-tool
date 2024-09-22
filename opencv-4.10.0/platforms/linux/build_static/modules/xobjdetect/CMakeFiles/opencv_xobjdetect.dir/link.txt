@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../../lib/libopencv_xobjdetect.a CMakeFiles/opencv_xobjdetect.dir/src/feature_evaluator.cpp.o CMakeFiles/opencv_xobjdetect.dir/src/lbpfeatures.cpp.o CMakeFiles/opencv_xobjdetect.dir/src/waldboost.cpp.o CMakeFiles/opencv_xobjdetect.dir/src/wbdetector.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../../lib/libopencv_xobjdetect.a

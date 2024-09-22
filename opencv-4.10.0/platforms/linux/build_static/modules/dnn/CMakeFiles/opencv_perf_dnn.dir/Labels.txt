@@ -1,0 +1,73 @@
+# Target labels
+ Main
+ opencv_dnn
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/test/test_common.hpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/test/test_common.impl.hpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_caffe.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_common.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_convolution.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_convolution1d.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_convolution3d.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_einsum.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_gemm.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_layer.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_main.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_net.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_recurrent.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/perf/perf_precomp.hpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/modules/dnn/src/layers/cpu_kernels/conv_winograd_f63.neon.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/modules/dnn/layers/cpu_kernels/conv_block.neon.cpp
+ Main
+ opencv_dnn
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.neon.cpp
+ Main
+ opencv_dnn
+ PerfTest

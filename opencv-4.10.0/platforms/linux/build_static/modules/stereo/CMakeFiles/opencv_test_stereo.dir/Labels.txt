@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_stereo
+ AccuracyTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/stereo/test/test_block_matching.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/stereo/test/test_descriptors.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/stereo/test/test_main.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/stereo/test/test_qds_matching.cpp
+ Extra
+ opencv_stereo
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/stereo/test/test_precomp.hpp
+ Extra
+ opencv_stereo
+ AccuracyTest

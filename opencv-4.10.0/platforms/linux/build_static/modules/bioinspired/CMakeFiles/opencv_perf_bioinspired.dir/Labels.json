@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bioinspired/perf/opencl/perf_retina.ocl.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bioinspired/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/bioinspired/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_bioinspired",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_bioinspired"
+	}
+}

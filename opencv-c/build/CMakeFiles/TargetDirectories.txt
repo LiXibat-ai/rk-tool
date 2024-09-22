@@ -1,0 +1,7 @@
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/DisplayImage.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/edit_cache.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/rebuild_cache.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/list_install_components.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/install.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/install/local.dir
+/home/lixibat/rk-project/opencv-c/build/CMakeFiles/install/strip.dir

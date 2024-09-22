@@ -1,0 +1,27 @@
+3rdparty/libwebp/CMakeFiles/libwebp.dir/src/demux/anim_decode.c.o: \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/demux/anim_decode.c \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/assert.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/features.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/gnu/stubs-lp64.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/string.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.3.1/include/stddef.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/xlocale.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/string.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/string2.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdlib.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/utils/utils.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/types.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/inttypes.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/6.3.1/include/stdint.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/stdint.h \
+ /home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include/bits/wchar.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/decode.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/./types.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/demux.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/./decode.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/./mux_types.h \
+ /home/lixibat/rk-project/opencv-4.10.0/3rdparty/libwebp/src/webp/././types.h

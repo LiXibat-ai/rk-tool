@@ -1,0 +1,1251 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8a0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8a0d.dir/build.make CMakeFiles/cmTC_d8a0d.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a0d.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_d8a0d.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_d8a0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a0d.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_d8a0d.dir/src.c.o -o cmTC_d8a0d 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81bad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81bad.dir/build.make CMakeFiles/cmTC_81bad.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81bad.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_81bad.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_81bad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81bad.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_81bad.dir/src.cxx.o -o cmTC_81bad 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ea3d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ea3d.dir/build.make CMakeFiles/cmTC_9ea3d.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ea3d.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_9ea3d.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_9ea3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ea3d.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_9ea3d.dir/src.cxx.o -o cmTC_9ea3d 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3dad9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3dad9.dir/build.make CMakeFiles/cmTC_3dad9.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dad9.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_3dad9.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_3dad9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dad9.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_3dad9.dir/src.c.o -o cmTC_3dad9 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5654a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5654a.dir/build.make CMakeFiles/cmTC_5654a.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5654a.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wsuggest-override -o CMakeFiles/cmTC_5654a.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_5654a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5654a.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_5654a.dir/src.c.o -o cmTC_5654a 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36c6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36c6c.dir/build.make CMakeFiles/cmTC_36c6c.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36c6c.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_36c6c.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_36c6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36c6c.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_36c6c.dir/src.c.o -o cmTC_36c6c 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d478/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d478.dir/build.make CMakeFiles/cmTC_1d478.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d478.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_1d478.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_1d478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d478.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_1d478.dir/src.cxx.o -o cmTC_1d478 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2a80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2a80.dir/build.make CMakeFiles/cmTC_a2a80.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2a80.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_a2a80.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_a2a80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2a80.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_a2a80.dir/src.c.o -o cmTC_a2a80 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_dotprod.cpp'
+    check option: ' -march=armv8.2-a+dotprod'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38ec6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38ec6.dir/build.make CMakeFiles/cmTC_38ec6.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38ec6.dir/cpu_neon_dotprod.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -march=armv8.2-a+dotprod -std=c++11 -o CMakeFiles/cmTC_38ec6.dir/cpu_neon_dotprod.cpp.o -c /home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_dotprod.cpp
+/home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_dotprod.cpp:1:0: error: invalid feature modifier in ‘-march=armv8.2-a+dotprod’
+ #include <stdio.h>
+ 
+gmake[1]: *** [CMakeFiles/cmTC_38ec6.dir/build.make:78: CMakeFiles/cmTC_38ec6.dir/cpu_neon_dotprod.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_38ec6/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_bf16.cpp'
+    check option: ' -march=armv8.2-a+bf16'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07376/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07376.dir/build.make CMakeFiles/cmTC_07376.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07376.dir/cpu_neon_bf16.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -march=armv8.2-a+bf16 -std=c++11 -o CMakeFiles/cmTC_07376.dir/cpu_neon_bf16.cpp.o -c /home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_bf16.cpp
+/home/lixibat/rk-project/opencv-4.10.0/cmake/checks/cpu_neon_bf16.cpp:1:0: error: invalid feature modifier in ‘-march=armv8.2-a+bf16’
+ #if (defined __GNUC__ && (defined __arm__ || defined __aarch64__)) || (defined _MSC_VER && defined _M_ARM64)
+ 
+gmake[1]: *** [CMakeFiles/cmTC_07376.dir/build.make:78: CMakeFiles/cmTC_07376.dir/cpu_neon_bf16.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_07376/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6b28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6b28.dir/build.make CMakeFiles/cmTC_d6b28.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6b28.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_d6b28.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_d6b28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6b28.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi  -O3 -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   CMakeFiles/cmTC_d6b28.dir/src.c.o -o cmTC_d6b28 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2e02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2e02.dir/build.make CMakeFiles/cmTC_a2e02.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2e02.dir/OFF64_T.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a2e02.dir/OFF64_T.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: error: ‘off64_t’ undeclared here (not in a function)
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_a2e02.dir/build.make:78: CMakeFiles/cmTC_a2e02.dir/OFF64_T.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a2e02/fast] Error 2
+
+
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79e7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79e7a.dir/build.make CMakeFiles/cmTC_79e7a.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79e7a.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_79e7a.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_79e7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79e7a.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_79e7a.dir/src.c.o -o cmTC_79e7a 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_559e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_559e2.dir/build.make CMakeFiles/cmTC_559e2.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_559e2.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-shift-negative-value -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-fallthrough -o CMakeFiles/cmTC_559e2.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking C executable cmTC_559e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_559e2.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-shift-negative-value -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_559e2.dir/src.c.o -o cmTC_559e2 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Performing C SOURCE FILE Test HAVE_VLD1_S16_X3 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee6b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee6b3.dir/build.make CMakeFiles/cmTC_ee6b3.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee6b3.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DHAVE_VLD1_S16_X3  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ee6b3.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:9:26: warning: implicit declaration of function ‘vld1_s16_x3’ [-Wimplicit-function-declaration]
+     int16x4x3_t output = vld1_s16_x3(input);
+                          ^~~~~~~~~~~
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:9:26: error: invalid initializer
+gmake[1]: *** [CMakeFiles/cmTC_ee6b3.dir/build.make:78: CMakeFiles/cmTC_ee6b3.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ee6b3/fast] Error 2
+
+
+Source file was:
+
+  #include <arm_neon.h>
+  int main(int argc, char **argv) {
+    int16_t input[] = {
+      (int16_t)argc, (int16_t)argc, (int16_t)argc, (int16_t)argc,
+      (int16_t)argc, (int16_t)argc, (int16_t)argc, (int16_t)argc,
+      (int16_t)argc, (int16_t)argc, (int16_t)argc, (int16_t)argc
+    };
+    int16x4x3_t output = vld1_s16_x3(input);
+    vst3_s16(input, output);
+    return (int)input[0];
+  }
+Performing C SOURCE FILE Test HAVE_VLD1_U16_X2 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85f91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85f91.dir/build.make CMakeFiles/cmTC_85f91.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85f91.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DHAVE_VLD1_U16_X2  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_85f91.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:8:27: warning: implicit declaration of function ‘vld1_u16_x2’ [-Wimplicit-function-declaration]
+     uint16x4x2_t output = vld1_u16_x2(input);
+                           ^~~~~~~~~~~
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:8:27: error: invalid initializer
+gmake[1]: *** [CMakeFiles/cmTC_85f91.dir/build.make:78: CMakeFiles/cmTC_85f91.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_85f91/fast] Error 2
+
+
+Source file was:
+
+  #include <arm_neon.h>
+  int main(int argc, char **argv) {
+    uint16_t input[] = {
+      (uint16_t)argc, (uint16_t)argc, (uint16_t)argc, (uint16_t)argc,
+      (uint16_t)argc, (uint16_t)argc, (uint16_t)argc, (uint16_t)argc
+    };
+    uint16x4x2_t output = vld1_u16_x2(input);
+    vst2_u16(input, output);
+    return (int)input[0];
+  }
+Performing C SOURCE FILE Test HAVE_VLD1Q_U8_X4 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_184ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_184ac.dir/build.make CMakeFiles/cmTC_184ac.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_184ac.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -DHAVE_VLD1Q_U8_X4  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_184ac.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:22:27: warning: implicit declaration of function ‘vld1q_u8_x4’ [-Wimplicit-function-declaration]
+     uint8x16x4_t output = vld1q_u8_x4(input);
+                           ^~~~~~~~~~~
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:22:27: error: invalid initializer
+gmake[1]: *** [CMakeFiles/cmTC_184ac.dir/build.make:78: CMakeFiles/cmTC_184ac.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_184ac/fast] Error 2
+
+
+Source file was:
+
+  #include <arm_neon.h>
+  int main(int argc, char **argv) {
+    uint8_t input[] = {
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc,
+      (uint8_t)argc, (uint8_t)argc, (uint8_t)argc, (uint8_t)argc
+    };
+    uint8x16x4_t output = vld1q_u8_x4(input);
+    vst4q_u8(input, output);
+    return (int)input[0];
+  }
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97f36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97f36.dir/build.make CMakeFiles/cmTC_97f36.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97f36.dir/CheckIncludeFile.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_97f36.dir/CheckIncludeFile.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_97f36.dir/build.make:78: CMakeFiles/cmTC_97f36.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_97f36/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a295b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a295b.dir/build.make CMakeFiles/cmTC_a295b.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a295b.dir/int8.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a295b.dir/int8.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int8.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int8.c:27:22: error: ‘INT8’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int8.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_a295b.dir/build.make:78: CMakeFiles/cmTC_a295b.dir/int8.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a295b/fast] Error 2
+
+
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aea3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aea3a.dir/build.make CMakeFiles/cmTC_aea3a.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aea3a.dir/int16.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_aea3a.dir/int16.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int16.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int16.c:27:22: error: ‘INT16’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int16.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_aea3a.dir/build.make:78: CMakeFiles/cmTC_aea3a.dir/int16.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_aea3a/fast] Error 2
+
+
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94830/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94830.dir/build.make CMakeFiles/cmTC_94830.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94830.dir/int32.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_94830.dir/int32.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int32.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int32.c:27:22: error: ‘INT32’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int32.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_94830.dir/build.make:78: CMakeFiles/cmTC_94830.dir/int32.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_94830/fast] Error 2
+
+
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_286b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_286b7.dir/build.make CMakeFiles/cmTC_286b7.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_286b7.dir/CheckFunctionExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_286b7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_286b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_286b7.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_286b7.dir/CheckFunctionExists.c.o -o cmTC_286b7 
+CMakeFiles/cmTC_286b7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_286b7.dir/build.make:99: cmTC_286b7] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_286b7/fast] Error 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c97b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c97b.dir/build.make CMakeFiles/cmTC_4c97b.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c97b.dir/CheckFunctionExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4c97b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4c97b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c97b.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4c97b.dir/CheckFunctionExists.c.o -o cmTC_4c97b 
+CMakeFiles/cmTC_4c97b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_4c97b.dir/build.make:99: cmTC_4c97b] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4c97b/fast] Error 2
+
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1bcdb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1bcdb.dir/build.make CMakeFiles/cmTC_1bcdb.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bcdb.dir/CheckFunctionExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1bcdb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1bcdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bcdb.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1bcdb.dir/CheckFunctionExists.c.o -o cmTC_1bcdb 
+CMakeFiles/cmTC_1bcdb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1bcdb.dir/build.make:99: cmTC_1bcdb] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1bcdb/fast] Error 2
+
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fda4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fda4.dir/build.make CMakeFiles/cmTC_8fda4.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fda4.dir/CheckFunctionExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8fda4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fda4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fda4.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8fda4.dir/CheckFunctionExists.c.o -o cmTC_8fda4 
+CMakeFiles/cmTC_8fda4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8fda4.dir/build.make:99: cmTC_8fda4] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8fda4/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-array-parameter’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d1e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d1e2.dir/build.make CMakeFiles/cmTC_7d1e2.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d1e2.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-array-parameter -o CMakeFiles/cmTC_7d1e2.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-array-parameter’
+Linking C executable cmTC_7d1e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d1e2.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7d1e2.dir/src.c.o -o cmTC_7d1e2 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bb54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bb54.dir/build.make CMakeFiles/cmTC_9bb54.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bb54.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_9bb54.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_9bb54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb54.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9bb54.dir/src.cxx.o -o cmTC_9bb54 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd39e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd39e.dir/build.make CMakeFiles/cmTC_bd39e.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd39e.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_bd39e.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_bd39e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd39e.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_bd39e.dir/src.c.o -o cmTC_bd39e 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-documentation’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ec96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ec96.dir/build.make CMakeFiles/cmTC_6ec96.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ec96.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_6ec96.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-documentation’
+Linking C executable cmTC_6ec96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec96.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6ec96.dir/src.c.o -o cmTC_6ec96 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78095/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78095.dir/build.make CMakeFiles/cmTC_78095.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78095.dir/CheckSymbolExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_78095.dir/CheckSymbolExists.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^~~~~~~~~~~~~~~
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_78095.dir/build.make:78: CMakeFiles/cmTC_78095.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_78095/fast] Error 2
+
+
+File /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef10b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef10b.dir/build.make CMakeFiles/cmTC_ef10b.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef10b.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-cast-function-type -o CMakeFiles/cmTC_ef10b.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
+Linking C executable cmTC_ef10b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef10b.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ef10b.dir/src.c.o -o cmTC_ef10b 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27245/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27245.dir/build.make CMakeFiles/cmTC_27245.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27245.dir/src.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_27245.dir/src.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’
+Linking C executable cmTC_27245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27245.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_27245.dir/src.c.o -o cmTC_27245 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddee4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddee4.dir/build.make CMakeFiles/cmTC_ddee4.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddee4.dir/CheckFunctionExists.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ddee4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddee4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddee4.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ddee4.dir/CheckFunctionExists.c.o -o cmTC_ddee4 
+CMakeFiles/cmTC_ddee4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ddee4.dir/build.make:99: cmTC_ddee4] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ddee4/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e2c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e2c7.dir/build.make CMakeFiles/cmTC_9e2c7.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9e2c7.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_9e2c7.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_9e2c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e2c7.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_9e2c7.dir/src.cxx.o -o cmTC_9e2c7 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_860d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_860d6.dir/build.make CMakeFiles/cmTC_860d6.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_860d6.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_860d6.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_860d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_860d6.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_860d6.dir/src.cxx.o -o cmTC_860d6 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e455/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e455.dir/build.make CMakeFiles/cmTC_4e455.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e455.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_4e455.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_4e455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e455.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4e455.dir/src.cxx.o -o cmTC_4e455 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15340/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15340.dir/build.make CMakeFiles/cmTC_15340.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15340.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_15340.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_15340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15340.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_15340.dir/src.cxx.o -o cmTC_15340 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b68e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b68e.dir/build.make CMakeFiles/cmTC_3b68e.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b68e.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-fallthrough -std=c++11 -o CMakeFiles/cmTC_3b68e.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
+Linking CXX executable cmTC_3b68e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b68e.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3b68e.dir/src.cxx.o -o cmTC_3b68e 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-stringop-overflow’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overflow'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_689b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_689b2.dir/build.make CMakeFiles/cmTC_689b2.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_689b2.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-stringop-overflow -std=c++11 -o CMakeFiles/cmTC_689b2.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-stringop-overflow’
+Linking CXX executable cmTC_689b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_689b2.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_689b2.dir/src.cxx.o -o cmTC_689b2 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-stringop-overread’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overread'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd36c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd36c.dir/build.make CMakeFiles/cmTC_cd36c.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd36c.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-stringop-overread -std=c++11 -o CMakeFiles/cmTC_cd36c.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-stringop-overread’
+Linking CXX executable cmTC_cd36c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd36c.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_cd36c.dir/src.cxx.o -o cmTC_cd36c 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-extra-semi’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-extra-semi'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13d2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13d2c.dir/build.make CMakeFiles/cmTC_13d2c.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13d2c.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-extra-semi -std=c++11 -o CMakeFiles/cmTC_13d2c.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-extra-semi’
+Linking CXX executable cmTC_13d2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d2c.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_13d2c.dir/src.cxx.o -o cmTC_13d2c 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-comma’'
+Compilation failed:
+    source file: '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7de99/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7de99.dir/build.make CMakeFiles/cmTC_7de99.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7de99.dir/src.cxx.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-comma -std=c++11 -o CMakeFiles/cmTC_7de99.dir/src.cxx.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-comma’
+Linking CXX executable cmTC_7de99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de99.dir/link.txt --verbose=1
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++  -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-psabi -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7de99.dir/src.cxx.o -o cmTC_7de99 
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0824/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0824.dir/build.make CMakeFiles/cmTC_e0824.dir/build
+gmake[1]: Entering directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0824.dir/CheckIncludeFile.c.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-psabi -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e0824.dir/CheckIncludeFile.c.o -c /home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e0824.dir/build.make:78: CMakeFiles/cmTC_e0824.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/lixibat/rk-project/opencv-4.10.0/platforms/linux/build_static/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e0824/fast] Error 2
+
+
+

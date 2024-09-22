@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../../lib/libopencv_stereo.a CMakeFiles/opencv_stereo.dir/src/descriptor.cpp.o CMakeFiles/opencv_stereo.dir/src/quasi_dense_stereo.cpp.o CMakeFiles/opencv_stereo.dir/src/stereo_binary_bm.cpp.o CMakeFiles/opencv_stereo.dir/src/stereo_binary_sgbm.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../../lib/libopencv_stereo.a

@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_shape
+ AccuracyTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/shape/test/test_main.cpp
+ Extra
+ opencv_shape
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/shape/test/test_shape.cpp
+ Extra
+ opencv_shape
+ AccuracyTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/shape/test/test_precomp.hpp
+ Extra
+ opencv_shape
+ AccuracyTest

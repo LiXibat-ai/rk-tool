@@ -1,0 +1,33 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/rapid/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_rapid",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_rapid",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_rapid"
+	}
+}

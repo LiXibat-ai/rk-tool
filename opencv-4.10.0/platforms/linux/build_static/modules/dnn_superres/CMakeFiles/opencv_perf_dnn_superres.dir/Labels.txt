@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_dnn_superres
+ PerfTest
+# Source files and their labels
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_dnn_superres.cpp
+ Extra
+ opencv_dnn_superres
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_main.cpp
+ Extra
+ opencv_dnn_superres
+ PerfTest
+/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/dnn_superres/perf/perf_precomp.hpp
+ Extra
+ opencv_dnn_superres
+ PerfTest

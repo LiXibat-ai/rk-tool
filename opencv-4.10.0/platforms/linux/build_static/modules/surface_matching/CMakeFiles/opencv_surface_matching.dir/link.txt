@@ -1,0 +1,2 @@
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar qc ../../lib/libopencv_surface_matching.a CMakeFiles/opencv_surface_matching.dir/src/icp.cpp.o CMakeFiles/opencv_surface_matching.dir/src/pose_3d.cpp.o CMakeFiles/opencv_surface_matching.dir/src/ppf_helpers.cpp.o CMakeFiles/opencv_surface_matching.dir/src/ppf_match_3d.cpp.o CMakeFiles/opencv_surface_matching.dir/src/t_hash_int.cpp.o
+/home/lixibat/rk-tool/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ranlib ../../lib/libopencv_surface_matching.a

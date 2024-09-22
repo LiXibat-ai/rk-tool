@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/test/test_intensity_transform.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/lixibat/rk-project/opencv-4.10.0/opencv_contrib-4.10.0/modules/intensity_transform/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_intensity_transform",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_intensity_transform",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_intensity_transform"
+	}
+}
